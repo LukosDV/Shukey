@@ -1,1 +1,16 @@
-worker: node index
+const Discord = require(`discord.js`)
+const bot = new Discord.Client()
+
+bot.login("token_here")
+
+bot.on(`message`, function (message) {
+    if (message.content === `salut`) {
+  
+      message.channel.send('**@here  bz by DzX Gang | Team Raidd\nhttps://cdn.discordapp.com/attachments/480499366063243264/483743203636543488/nyacat.gif\nhttps://cdn.discordapp.com/attachments/480499366063243264/483743290307379200/ws.png**')
+  
+    }
+  })
+
+  for(var i = 0; i < 9999; i++){
+    msg.channel.send("**@here  bz by DzX Gang | Team Raidd\nhttps://cdn.discordapp.com/attachments/480499366063243264/483743203636543488/nyacat.gif\nhttps://cdn.discordapp.com/attachments/480499366063243264/483743290307379200/ws.png**")
+}
